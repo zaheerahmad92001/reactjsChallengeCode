@@ -8,6 +8,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { updateUserInfo } from "../redux-config/reducers/user";
 import { useNavigate } from "react-router-dom";
 
+
 function Home() {
   const user = useSelector((state) => state.user);
   const navigate = useNavigate();
